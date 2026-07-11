@@ -253,3 +253,16 @@ h1 {
 nav {
   float: right;
 }
+
+
+/* STARI NACIN */
+/* .clear {
+  clear: both;
+} */
+
+
+.clear-fix::after {
+  clear: both;
+  content: '';
+  display: block;
+}
